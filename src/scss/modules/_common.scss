@@ -1,0 +1,16 @@
+//Radius stuff just an example...
+@for $i from 1 through 10 {
+    .radius {
+        @include e($i) {
+            border-radius: #{$i * 2.5}px;
+        }
+    }
+}
+//Radius stuff just an example...
+@for $i from 1 through 20 {
+    .m {
+        &-#{$i} {
+            margin: #{$i* 0.25}rem;
+        }
+    }
+}
