@@ -32,7 +32,7 @@ $font-url--google: 'https://fonts.googleapis.com/css?family=Montserrat:300,400,5
 $font-family-fallback: 'Arial', sans-serif;
 $font-family-serif: 'Georgia', serif;
 $font-family-monospace: 'Inconsolata', monospace;
-$font-family--primary: 'Montserrat'
+$font-family--primary: 'Montserrat';
 $font-family--secondary: 'Source Sans Pro';
 
 //Colors
@@ -100,4 +100,3 @@ $shadow-color: rgba($black, 0.2);
 $border-color: $gray;
 $color-text: $black;
 $color-link: $blue;
-

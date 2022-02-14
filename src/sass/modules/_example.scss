@@ -167,7 +167,7 @@ $pink: #df2771;
 			}
 		}
 
-		@include e(segment) {
+		@include element(segment) {
 			border-bottom: 1px solid $border-color;
 
 			@include themify(theme-type(size)) {
@@ -179,7 +179,7 @@ $pink: #df2771;
 			}
 		}
 
-		@include e(code) {
+		@include element(code) {
 			margin-top: 15px;
 
 			span {
@@ -190,11 +190,11 @@ $pink: #df2771;
 			}
 		}
 
-		@include e(section) {
+		@include element(section) {
 			margin-top: 24px;
 		}
 
-		@include e(form-group) {
+		@include element(form-group) {
 			display: inline-block;
 			width: 140px;
 			margin-right: 18px;
