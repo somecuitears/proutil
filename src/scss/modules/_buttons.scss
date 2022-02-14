@@ -1,29 +1,29 @@
 .btn {
-    padding: 8px 12px;
-    border: 0;
-    border-radius: 1.2rem;
-    color: $white;
-    cursor: pointer;
+	padding: 8px 12px;
+	border: 0;
+	border-radius: 1.2rem;
+	color: $white;
+	cursor: pointer;
 
-    // These will create btn--primary. Use for custom buttons
-    @include m(primary) {
-        border: 1px solid $green;
-        color: $green;
-        background: $white;
-    }
+	// These will create btn--primary. Use for custom buttons
+	@include modifier(primary) {
+		border: 1px solid $green;
+		color: $green;
+		background: $white;
+	}
 
-    @include m(secondary) {
-        background: $green;
-    }
+	@include modifier(secondary) {
+		background: $green;
+	}
 
-    @include m(aafnojpt) {
-        // Just simple button and no hover or other stuffs
-        background: $blue;
-        color: $white;
-    }
+	@include modifier(aafnojpt) {
+		// Just simple button and no hover or other stuffs
+		background: $blue;
+		color: $white;
+	}
 
-    @include m(aafno-ramro-mileko) {
-        // Includes :focus :active and other stuff
-        @include button-variant($white, $blue, $blue)
-    }
+	@include modifier(aafno-ramro-mileko) {
+		// Includes :focus :active and other stuff
+		@include button-variant($white, $blue, $blue);
+	}
 }

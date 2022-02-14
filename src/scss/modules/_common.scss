@@ -1,7 +1,7 @@
 //Radius stuff just an example...
 @for $i from 1 through 10 {
     .radius {
-        @include e($i) {
+        @include element($i) {
             border-radius: #{$i * 2.5}px;
         }
     }
